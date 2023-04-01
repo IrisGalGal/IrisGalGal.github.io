@@ -1,245 +1,259 @@
 {
-  "bebidas": [
+  "drinks": [
     {
-      "nombre": "Café americano",
-      "tipo": "café",
-      "ingredientes": [
-        {"ingrediente": "café molido", "cantidad": "1 cucharada"},
-        {"ingrediente": "agua caliente", "cantidad": "1 taza"}
+      "name": "Café americano",
+      "type": "café",
+      "ingredients": [
+        {"ingredient": "café molido", "quantity": "1 cucharada"},
+        {"ingredient": "agua caliente", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el café molido en una taza.",
         "Vierte agua caliente sobre el café.",
         "Revuelve y disfruta."
-      ]
+      ],
+      "price": 30
     },
     {
-      "nombre": "Café con leche",
-      "tipo": "café",
-      "ingredientes": [
-        {"ingrediente": "café molido", "cantidad": "1 cucharada"},
-        {"ingrediente": "leche caliente", "cantidad": "1 taza"}
+      "name": "Café con leche",
+      "type": "café",
+      "ingredients": [
+        {"ingredient": "café molido", "quantity": "1 cucharada"},
+        {"ingredient": "leche caliente", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el café molido en una taza.",
         "Vierte leche caliente sobre el café.",
         "Revuelve y disfruta."
-      ]
+      ],
+      "price": 25
     },
     {
-      "nombre": "Té de menta",
-      "tipo": "té",
-      "ingredientes": [
-        {"ingrediente": "bolsita de té de menta", "cantidad": "1"},
-        {"ingrediente": "agua caliente", "cantidad": "1 taza"}
+      "name": "Té de menta",
+      "type": "té",
+      "ingredients": [
+        {"ingredient": "bolsita de té de menta", "quantity": "1"},
+        {"ingredient": "agua caliente", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el agua caliente en una taza.",
         "Agrega la bolsita de té de menta a la taza.",
         "Deja reposar el té durante 3-5 minutos.",
         "Retira la bolsita de té y disfruta."
-      ]
+      ],
+      "price": 20
     },
     {
-      "nombre": "Té de jengibre",
-      "tipo": "té",
-      "ingredientes": [
-        {"ingrediente": "jengibre fresco", "cantidad": "1 pulgar"},
-        {"ingrediente": "bolsita de té negro", "cantidad": "1"},
-        {"ingrediente": "agua caliente", "cantidad": "1 taza"}
+      "name": "Té de jengibre",
+      "type": "té",
+      "ingredients": [
+        {"ingredient": "jengibre fresco", "quantity": "1 pulgar"},
+        {"ingredient": "bolsita de té negro", "quantity": "1"},
+        {"ingredient": "agua caliente", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el agua caliente en una taza.",
         "Pela y ralla el jengibre fresco y agrégalo a la taza.",
         "Agrega la bolsita de té negro a la taza.",
         "Deja reposar el té durante 3-5 minutos.",
         "Retira la bolsita de té y disfruta."
-      ]
+      ],
+      "price": 20
     },
     {
-      "nombre": "Chocolate caliente",
-      "tipo": "chocolate",
-      "ingredientes": [
-        {"ingrediente": "cacao en polvo", "cantidad": "2 cucharadas"},
-        {"ingrediente": "leche caliente", "cantidad": "1 taza"},
-        {"ingrediente": "azúcar", "cantidad": "1 cucharada"}
+      "name": "Chocolate caliente",
+      "type": "chocolate",
+      "ingredients": [
+        {"ingredient": "cacao en polvo", "quantity": "2 cucharadas"},
+        {"ingredient": "leche caliente", "quantity": "1 taza"},
+        {"ingredient": "azúcar", "quantity": "1 cucharada"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Calienta la leche en una cacerola a fuego medio hasta que esté caliente.",
         "Agrega el cacao en polvo y el azúcar a la leche caliente.",
         "Revuelve hasta que el chocolate se haya disuelto completamente.",
         "Vierte en una taza y disfruta."
-      ]
+      ],
+      "price": 45
     },
     {
-      "nombre": "Chai Latte",
-      "tipo": "Té",
-      "ingredientes": [
+      "name": "Chai Latte",
+      "type": "Té",
+      "ingredients": [
         {
-          "nombre": "Leche",
-          "cantidad": "1 taza"
+          "name": "Leche",
+          "quantity": "1 taza"
         },
         {
-          "nombre": "Bolsita de té chai",
-          "cantidad": "1"
+          "name": "Bolsita de té chai",
+          "quantity": "1"
         }
       ],
-      "instrucciones": [
+      "instructions": [
         "Calienta la leche en una cacerola a fuego medio hasta que esté caliente.",
         "Agrega la bolsita de té chai a la leche caliente.",
         "Deja reposar el té durante 3-5 minutos.",
         "Retira la bolsita de té y disfruta."
-      ]
+      ],
+      "price": 25
     },
     {
-      "nombre": "Té de limón",
-      "tipo": "Té",
-      "ingredientes": [
+      "name": "Té de limón",
+      "type": "Té",
+      "ingredients": [
         {
-          "nombre": "Agua caliente",
-          "cantidad": "1 taza"
+          "name": "Agua caliente",
+          "quantity": "1 taza"
         },
         {
-          "nombre": "Bolsita de té de limón",
-          "cantidad": "1"
+          "name": "Bolsita de té de limón",
+          "quantity": "1"
         }
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el agua caliente en una taza.",
         "Agrega la bolsita de té de limón a la taza.",
         "Deja reposar el té durante 3-5 minutos.",
         "Retira la bolsita de té y disfruta."
-      ]
+      ],
+      "price": 20
     },
     {
-      "nombre": "Café Latte",
-      "tipo": "Café",
-      "ingredientes": [
+      "name": "Café Latte",
+      "type": "Café",
+      "ingredients": [
         {
-          "nombre": "Leche",
-          "cantidad": "1 taza"
+          "name": "Leche",
+          "quantity": "1 taza"
         },
         {
-          "nombre": "Café molido",
-          "cantidad": "1 cucharada"
+          "name": "Café molido",
+          "quantity": "1 cucharada"
         }
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el café molido en una taza.",
         "Calienta la leche en una cacerola a fuego medio hasta que esté caliente.",
         "Vierte la leche caliente en la taza con café.",
         "Revuelve y disfruta."
-      ]
+      ],
+      "price": 35
     },
     {
-      "nombre": "Batido de plátano y fresa",
-      "tipo": "smoothie",
-      "ingredientes": [
-        {"ingrediente": "plátanos maduros", "cantidad": "2"},
-        {"ingrediente": "fresas congeladas", "cantidad": "1 taza"},
-        {"ingrediente": "leche", "cantidad": "1 taza"},
-        {"ingrediente": "yogur natural", "cantidad": "1/2 taza"},
-        {"ingrediente": "miel", "cantidad": "2 cucharadas"},
-        {"ingrediente": "hielo", "cantidad": "1 taza"}
+      "name": "Batido de plátano y fresa",
+      "type": "smoothie",
+      "ingredients": [
+        {"ingredient": "plátanos maduros", "quantity": "2"},
+        {"ingredient": "fresas congeladas", "quantity": "1 taza"},
+        {"ingredient": "leche", "quantity": "1 taza"},
+        {"ingredient": "yogur natural", "quantity": "1/2 taza"},
+        {"ingredient": "miel", "quantity": "2 cucharadas"},
+        {"ingredient": "hielo", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Pela y corta los plátanos y agrégelos a una licuadora.",
         "Agrega las fresas congeladas, la leche, el yogur natural y la miel a la licuadora.",
         "Agrega hielo y mezcla todo hasta que esté suave y cremoso.",
         "Vierte en vasos y disfruta."
-      ]
+      ],
+      "price": 45
     },
     {
-      "nombre": "Té helado de limón",
-      "tipo": "té",
-      "ingredientes": [
-        {"ingrediente": "bolsita de té negro", "cantidad": "2"},
-        {"ingrediente": "agua caliente", "cantidad": "2 tazas"},
-        {"ingrediente": "jugo de limón", "cantidad": "1/2 taza"},
-        {"ingrediente": "azúcar", "cantidad": "1/4 taza"},
-        {"ingrediente": "hielo", "cantidad": "2 tazas"}
+      "name": "Té helado de limón",
+      "type": "té",
+      "ingredients": [
+        {"ingredient": "bolsita de té negro", "quantity": "2"},
+        {"ingredient": "agua caliente", "quantity": "2 tazas"},
+        {"ingredient": "jugo de limón", "quantity": "1/2 taza"},
+        {"ingredient": "azúcar", "quantity": "1/4 taza"},
+        {"ingredient": "hielo", "quantity": "2 tazas"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el agua caliente en una tetera y agrega las bolsitas de té negro.",
         "Deja reposar durante 3-5 minutos y luego retira las bolsitas de té.",
         "Agrega el jugo de limón y el azúcar al té negro y revuelve bien.",
         "Deja enfriar a temperatura ambiente y luego coloca en el refrigerador hasta que esté frío.",
         "Sirve en vasos con hielo y disfruta."
-      ]
+      ],
+      "price": 20
     },
     {
-      "nombre": "Café helado",
-      "tipo": "café",
-      "ingredientes": [
-        {"ingrediente": "café molido", "cantidad": "1 taza"},
-        {"ingrediente": "agua fría", "cantidad": "4 tazas"},
-        {"ingrediente": "leche", "cantidad": "1 taza"},
-        {"ingrediente": "azúcar", "cantidad": "1/4 taza"},
-        {"ingrediente": "hielo", "cantidad": "2 tazas"}
+      "name": "Café helado",
+      "type": "café",
+      "ingredients": [
+        {"ingredient": "café molido", "quantity": "1 taza"},
+        {"ingredient": "agua fría", "quantity": "4 tazas"},
+        {"ingredient": "leche", "quantity": "1 taza"},
+        {"ingredient": "azúcar", "quantity": "1/4 taza"},
+        {"ingredient": "hielo", "quantity": "2 tazas"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Prepara el café molido en una jarra grande con agua fría.",
         "Cubre la jarra y déjala en el refrigerador durante 12-24 horas.",
         "Cuela el café con un colador de malla fina.",
         "Agrega la leche y el azúcar y revuelve bien.",
         "Sirve en vasos con hielo y disfruta."
-      ]
+      ],
+      "price": 44
     },
     {
-      "nombre": "Margarita",
-      "tipo": "coctel",
-      "ingredientes": [
-        {"ingrediente": "tequila", "cantidad": "2 oz"},
-        {"ingrediente": "jugo de limón fresco", "cantidad": "1 oz"},
-        {"ingrediente": "jarabe simple", "cantidad": "1 oz"},
-        {"ingrediente": "triple sec", "cantidad": "1 oz"},
-        {"ingrediente": "hielo", "cantidad": "1 taza"},
-        {"ingrediente": "sal", "cantidad": "para decorar el borde"},
-        {"ingrediente": "rodaja de limón", "cantidad": "para decorar"}
+      "name": "Margarita",
+      "type": "coctel",
+      "ingredients": [
+        {"ingredient": "tequila", "quantity": "2 oz"},
+        {"ingredient": "jugo de limón fresco", "quantity": "1 oz"},
+        {"ingredient": "jarabe simple", "quantity": "1 oz"},
+        {"ingredient": "triple sec", "quantity": "1 oz"},
+        {"ingredient": "hielo", "quantity": "1 taza"},
+        {"ingredient": "sal", "quantity": "para decorar el borde"},
+        {"ingredient": "rodaja de limón", "quantity": "para decorar"}
       ],
-      "instrucciones": [
+      "instructions": [
         "Humedece el borde de un vaso con una rodaja de limón y rocía con sal.",
         "En una coctelera, combina el tequila, jugo de limón fresco, jarabe simple y triple sec.",
         "Agrega hielo y agita bien.",
         "Vierte la mezcla en el vaso y decora con una rodaja de limón.",
         "Sirve frío y disfruta."
-      ]
+      ],
+      "price": 60
     },
     {
-      "nombre": "Piña colada",
-      "tipo": "coctel",
-      "ingredientes": [
-        {"ingrediente": "ron blanco", "cantidad": "2 oz"},
-        {"ingrediente": "jugo de piña", "cantidad": "4 oz"},
-        {"ingrediente": "crema de coco", "cantidad": "2 oz"},
-        {"ingrediente": "hielo", "cantidad": "1 taza"},
-        {"ingrediente": "rodaja de piña", "cantidad": "para decorar"}
+      "name": "Piña colada",
+      "type": "coctel",
+      "ingredients": [
+        {"ingredient": "ron blanco", "quantity": "2 oz"},
+        {"ingredient": "jugo de piña", "quantity": "4 oz"},
+        {"ingredient": "crema de coco", "quantity": "2 oz"},
+        {"ingredient": "hielo", "quantity": "1 taza"},
+        {"ingredient": "rodaja de piña", "quantity": "para decorar"}
       ],
-      "instrucciones": [
+      "instructions": [
         "En una licuadora, combina el ron blanco, el jugo de piña y la crema de coco.",
         "Agrega hielo y mezcla hasta que esté suave y cremoso.",
         "Vierte en un vaso y decora con una rodaja de piña.",
         "Sirve frío y disfruta."
-      ]
+      ],
+      "price": 60
     },
      {
-      "nombre": "Mojito",
-      "tipo": "coctel",
-      "ingredientes": [
-        {"ingrediente": "ron blanco", "cantidad": "2 oz"},
-        {"ingrediente": "jugo de lima fresco", "cantidad": "1 oz"},
-        {"ingrediente": "menta fresca", "cantidad": "6 hojas"},
-        {"ingrediente": "jarabe simple", "cantidad": "1 oz"},
-        {"ingrediente": "agua con gas", "cantidad": "2 oz"},
-        {"ingrediente": "hielo", "cantidad": "1 taza"}
+      "name": "Mojito",
+      "type": "coctel",
+      "ingredients": [
+        {"ingredient": "ron blanco", "quantity": "2 oz"},
+        {"ingredient": "jugo de lima fresco", "quantity": "1 oz"},
+        {"ingredient": "menta fresca", "quantity": "6 hojas"},
+        {"ingredient": "jarabe simple", "quantity": "1 oz"},
+        {"ingredient": "agua con gas", "quantity": "2 oz"},
+        {"ingredient": "hielo", "quantity": "1 taza"}
       ],
-      "instrucciones": [
+      "instructions": [
         "En un vaso alto, agrega las hojas de menta fresca y el jarabe simple.",
         "Usando un mortero, aplasta ligeramente las hojas de menta.",
         "Agrega el jugo de lima fresco, el ron blanco y hielo.",
         "Revuelve bien y agrega agua con gas.",
         "Decora con una rodaja de lima y hojas"
-      ]
+      ],
+      "price": 60
     }
   ]
 }
